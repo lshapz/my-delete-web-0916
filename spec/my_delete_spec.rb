@@ -63,7 +63,7 @@ describe "My Delete Methods" do
     it "deletes the middle element that matches what is passed as an argument" do
       expect(numbers.delete_middle(1)).to eq(no_middle_one)
       expect(landmarks.delete_middle("met")).to eq(no_middle_met)
-      expect(numbers.delete_middle("owls")).to eq(no_middle_owl)
+      expect(birds.delete_middle("owls")).to eq(no_middle_owl)
       expect(birds.delete_middle("dove")).to eq(no_middle_dove)
     end 
 
