@@ -29,14 +29,22 @@ describe "My Delete Methods" do
 
   describe "#delete_first" do
 
-    it "deletes the first element that matches what is passed as an argument" do
+    it "deletes the owl" do
       expect(birds.delete_first("owls")).to eq(no_first_owl)
+    end
+
+    it "deletes the first dove" do
       expect(birds.delete_first("dove")).to eq(no_first_dove)
+    end
+
+    it "deletes the first met" do
       expect(landmarks.delete_first("met")).to eq(no_first_met)
+    end
+    it "deletes the number 1" do
       expect(numbers.delete_first(1)).to eq(no_first_one)
     end
 
-    it "deletes one element if there is only one that matches the argument" do
+    it "deletes Harriet Tubman" do
       expect(activists.delete_first("Harriet Tubman")).to eq(no_harriet_tubman)
     end
 
@@ -44,11 +52,19 @@ describe "My Delete Methods" do
 
   describe "#delete_last" do
 
-    it "deletes the last element that matches what is passed as an argument" do
-      expect(activists.delete_last("Harriet Tubman")).to eq(no_harriet_tubman)
+    it "deletes the last element owls" do
       expect(birds.delete_last("owls")).to eq(no_last_owl)
+    end
+
+    it "deletes the last dove" do
       expect(birds.delete_last("dove")).to eq(no_last_dove)
+    end
+
+    it "deletes the last met" do
       expect(landmarks.delete_last("met")).to eq(no_last_met)
+    end
+
+    it "deletes the last number one" do
       expect(numbers.delete_last(1)).to eq(no_last_one)
     end
 
@@ -60,10 +76,19 @@ describe "My Delete Methods" do
 
   describe "#delete_middle" do
 
-    it "deletes the middle element that matches what is passed as an argument" do
+    it "deletes the middle number one" do
       expect(numbers.delete_middle(1)).to eq(no_middle_one)
-      expect(landmarks.delete_middle("met")).to eq(no_middle_met)
+    end
+
+    it "deletes the middle owl" do
       expect(birds.delete_middle("owls")).to eq(no_middle_owl)
+    end
+
+    it "deletes the middle met" do
+      expect(landmarks.delete_middle("met")).to eq(no_middle_met)
+    end
+
+    it "deletes the middle dove" do
       expect(birds.delete_middle("dove")).to eq(no_middle_dove)
     end 
 
