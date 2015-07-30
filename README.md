@@ -1,8 +1,4 @@
----
-tags: todo, monkey patching, arrays, iteration
-languages: ruby
-resources: 1
----
+
 
 # My Delete
 
