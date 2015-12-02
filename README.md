@@ -54,3 +54,5 @@ In other words, this lab is concerned only with the return values of your method
 * [Monkey Patching](http://www.runtime-era.com/2012/12/reopen-and-modify-ruby-classes-monkey.html)
 * [Delete At](http://apidock.com/ruby/Array/delete_at)
 * [Find Index](http://apidock.com/ruby/Array/find_index)
+
+<a href='https://learn.co/lessons/my-delete' data-visibility='hidden'>View this lesson on Learn.co</a>
