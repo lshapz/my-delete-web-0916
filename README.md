@@ -55,4 +55,4 @@ In other words, this lab is concerned only with the return values of your method
 * [Delete At](http://apidock.com/ruby/Array/delete_at)
 * [Find Index](http://apidock.com/ruby/Array/find_index)
 
-<a href='https://learn.co/lessons/my-delete' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/my-delete' title='My Delete'>My Delete</a> on Learn.co and start learning to code for free.</p>
